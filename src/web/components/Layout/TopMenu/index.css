@@ -1,0 +1,12 @@
+.top-menu{
+      background-color: #0489d6;
+      color: #fff;
+      padding: 15px 35px;
+      display: flex;
+      justify-content: space-between;
+}
+.contect-container{
+      width: 25%;
+      display: flex;
+      justify-content: space-between;
+}

@@ -1,0 +1,34 @@
+
+.main-navigation{
+      background-color: #035585;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 0px;
+      position: relative;
+}
+ul{
+      display: flex;
+}
+ul li{
+      list-style-type: none;
+}
+ul li a{
+      padding: 15px;
+      text-decoration: none;
+      color: #fff;
+      transition: 1ms background ease-in-out;
+}
+ul li a:hover{
+      background-color: #fff;
+      padding: 15px;
+      text-decoration: none;
+      color: #000;
+      
+}
+.logo-menu{
+      width: 250px;
+      position: absolute;
+      top: -38px;
+      left: 40%;
+}
+
