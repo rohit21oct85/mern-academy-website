@@ -1,11 +1,3 @@
-/* Header */
-/* .main-navigation{
-    background-color: #035585;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 0px;
-    position: relative;
-} */
 .container-fluid.fix-header {
     position: sticky;
     top: 0;
@@ -39,9 +31,11 @@
    
 }
 #header .header-main .nav .head-item.nav-link {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 0.8px;
+    padding: 0.1rem 1rem;
     border-radius: 50px;
+    margin-right: 0.2rem;
     color: var(--theme-dark-color);
 }
 #header .header-main .nav .head-item.nav-link:hover, #header .header-main .nav .head-item.nav-link.active {
@@ -52,6 +46,6 @@
 }
 #header .header-main .header-side-btn {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }

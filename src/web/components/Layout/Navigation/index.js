@@ -1,11 +1,13 @@
 import React from 'react'
-import {   } from 'react-router-dom'
+import { Link, useLocation  } from 'react-router-dom'
 import {Nav,Button} from 'react-bootstrap'
 
-import TopMenu from '../TopMenu'
+
 import './index.css'
 
 export default function Navigation() {
+      const location = useLocation()  
+      const path = location.pathname
       return (
           
             <>
@@ -18,26 +20,32 @@ export default function Navigation() {
                                 <div className="row  no-gutters">
                                     <div className="col-lg-3 col-md-12 col-12 p-0">
                                         <div className="web-logo">
-                                            <img src="/NewLogo.jpg" className="img-fluid" alt="MERN Acadmey Logo"/> 
+                                            <Link to="/">
+                                                <img src="/NewLogo.jpg" className="img-fluid" alt="MERN Acadmey Logo"/> 
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-12 d-flex align-item-center justify-content-center">
                                         <Nav activeKey="/home" >
                                             <Nav.Item>
-                                                <Nav.Link className="head-item active" href="/">Home</Nav.Link>
+                                                <Nav.Link as={Link} className={`head-item ${path === "/" ? 'active': ''}`} to="/">Home</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link className="head-item" href="/">Pricing</Nav.Link>
+                                                <Nav.Link as={Link} className={`head-item ${path === "/pricing" ? 'active': ''}`} to="/priceing">Pricing</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link className="head-item" href="/">Learning Path</Nav.Link>
+                                                <Nav.Link as={Link} className={`head-item ${path === "/learning-path" ? 'active': ''}`} to="/learning-path">Learning Path</Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                     </div>
                                     <div className="col-lg-3 col-md-12 col-12 p-0 d-flex align-item-center justify-content-end">
                                         <div className="header-side-btn">
-                                            <Button className="web-btn" href="/login" >Login</Button> {' '}
-                                            <Button className="web-btn" href="/register" >Register</Button> {' '}
+                                            <Link to="/login">
+                                                <Button className="web-btn">Login</Button> {' '}
+                                            </Link>
+                                            <Link to="/register" >
+                                                <Button className="web-btn" >Register</Button> {' '}
+                                            </Link>
                                         </div>  
                                     </div>
                                 </div>

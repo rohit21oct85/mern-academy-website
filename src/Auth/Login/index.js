@@ -6,7 +6,9 @@ export default function Login() {
       return (
             <div>
                   <Navigation />
-                  <h2>Login Page</h2>
+                  <div className="container main-content">
+                        <h2>Login Page</h2>
+                  </div>
             </div>
       )
 }
