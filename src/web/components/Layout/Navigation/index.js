@@ -18,7 +18,7 @@ export default function Navigation() {
                                 <div className="row  no-gutters">
                                     <div className="col-lg-3 col-md-12 col-12 p-0">
                                         <div className="web-logo">
-                                            <img src="/Newlogo.jpg" className="img-fluid" alt="MERN Acadmey Logo"/> 
+                                            <img src="/NewLogo.jpg" className="img-fluid" alt="MERN Acadmey Logo"/> 
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-12 d-flex align-item-center justify-content-center">
