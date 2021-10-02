@@ -39,7 +39,7 @@ export default function Home() {
                                     <div className="col-lg-3 col-md-3 col-12">
                                           <div className="sec-heading">
                                                 <h2 className="head title-dark">Why Choose</h2>
-                                                <img src="/Newlogo.jpg" className="img-fluid wc-head-image" alt="E-Learning"/> 
+                                                <img src="/NewLogo.jpg" className="img-fluid wc-head-image" alt="E-Learning"/> 
                                           </div>
                                           <div className="sub_heading">
                                                 <p>Look into yourself, get something in return as your achivement.</p>
