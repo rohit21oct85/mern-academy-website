@@ -11,6 +11,7 @@
     top: 0;
     box-shadow: rgb(0 0 0 / 23%) 0px 1px 10px 0px;
     z-index: 999;
+    background-color: #fff;
 }
 #header {
   padding: 1rem 0rem;
@@ -40,10 +41,14 @@
 #header .header-main .nav .head-item.nav-link {
     font-size: 1.2rem;
     letter-spacing: 0.8px;
-    color: var(--font-color);
-}
-#header .header-main .nav .head-item.nav-link:hover {
+    border-radius: 50px;
     color: var(--theme-dark-color);
+}
+#header .header-main .nav .head-item.nav-link:hover, #header .header-main .nav .head-item.nav-link.active {
+    color: #fff;
+    background-color: var(--theme-dark-color);
+    border-radius: 50px;
+    transition: all 0.5s;
 }
 #header .header-main .header-side-btn {
     display: flex;

@@ -24,7 +24,7 @@ export default function Navigation() {
                                     <div className="col-lg-6 col-md-12 col-12 d-flex align-item-center justify-content-center">
                                         <Nav activeKey="/home" >
                                             <Nav.Item>
-                                                <Nav.Link className="head-item" href="/">Home</Nav.Link>
+                                                <Nav.Link className="head-item active" href="/">Home</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
                                                 <Nav.Link className="head-item" href="/">Pricing</Nav.Link>
