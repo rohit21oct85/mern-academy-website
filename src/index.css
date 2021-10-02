@@ -1,10 +1,166 @@
-body {
-  margin: 0;
-  font-family: 'Ubuntu', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+      margin:0px;
+      padding: 0px;
+      
+}
+ .container {
+    max-width: 90vw !important;
 }
 
-html {
-  font-family: 'Ubuntu', sans-serif;
+:root {
+      --theme-color: #d95088;
+      --theme-dark-color: #303459;
+      --gray-color: #f9f9f9;
+      --link-color: #989898;
+      --font-color: #a6a3a5;
+      --heading-font: 'Varela Round', sans-serif;
+      --text-font: 'Varela Round', sans-serif;
+  }
+  
+  *,
+  *:after,
+  *::before {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body{
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Varela Round', sans-serif;
+  }
+  h1{
+      font-size: 60px; 
+      font-family: var(--heading-font);
+  }
+  
+  h2{
+      font-size: 38px;
+      font-weight: 600;
+      color: var(--theme-dark-color);
+      font-family: var(--heading-font);
+  }
+  
+  h3{
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--theme-dark-color);
+      font-family: var(--heading-font);
+  }
+  h4{
+      font-size: 20px;
+      font-weight: 600;
+      font-family: var(--heading-font);
+  }
+  p{
+      font-size: 16px;
+      letter-spacing: .5px;
+      line-height: 24px;
+      font-weight: 400;
+      font-family: var(--text-font);
+      color: var(--font-color);
+  }
+  
+  a:hover{
+      color: initial;
+      text-decoration: none!important;
+  }
+  *:focus {
+      outline: none;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active  {
+        -webkit-box-shadow: 0 0 0px 1000px #fff inset!important;
+      -webkit-transition: background-color 5000s ease-in-out 0s;
+      transition: background-color 5000s ease-in-out 0s;
+  }
+  .banner-heading h1 {
+     font-size: 55px;
+      text-align: center;
+      
+  }
+  .form-control:focus{
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      outline: none;
+      border-color: var(--theme-dark-color);
+  }
+  
+  .sec-padding{
+      padding: 80px 0;
+  }
+  .section_heading{
+      position: relative;
+  }
+  .title-dark {
+    color: var(--theme-dark-color);
+  }
+.title-red {
+    color: var(--theme-color);
 }
+
+
+  .section_heading .sub_heading {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 1rem;
+  }
+  .section_title {
+      text-transform: capitalize;
+      font-weight: 700;
+      position: relative;
+      padding-bottom: .5rem;
+  }
+  .section_title::after{
+      content: '';
+      position: absolute;
+      width: 70px;
+      height: 4px;
+      background: var(--theme-dark-color);
+      left: 0;
+      bottom: 0;
+  }
+.web-btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 12px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 0 0 2em var(--theme-dark-color) inset;
+    transition: .3s ease-in-out;
+    border: 0px;
+    margin-left: 10px;
+    padding: 6px 25px;
+    height: 30px;
+}
+.web-btn:hover{
+      box-shadow: 0 0 0 2px var(--theme-dark-color) inset;
+      color: var(--theme-dark-color);
+      background-color: #fff;
+}
+
+
+
+
+ 
+  
+  
