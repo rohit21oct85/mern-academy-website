@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from '../../components/Layout/Navigation'
 import './index.css';
 
-export default function Priceing() {
+export default function Pricing() {
       return (
             <div>
                   <Navigation />

@@ -31,7 +31,7 @@ export default function Navigation() {
                                                 <Nav.Link as={Link} className={`head-item ${path === "/" ? 'active': ''}`} to="/">Home</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link as={Link} className={`head-item ${path === "/pricing" ? 'active': ''}`} to="/priceing">Pricing</Nav.Link>
+                                                <Nav.Link as={Link} className={`head-item ${path === "/pricing" ? 'active': ''}`} to="/pricing">Pricing</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
                                                 <Nav.Link as={Link} className={`head-item ${path === "/learning-path" ? 'active': ''}`} to="/learning-path">Learning Path</Nav.Link>

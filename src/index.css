@@ -14,7 +14,7 @@
       --theme-dark-color: #303459;
       --gray-color: #f9f9f9;
       --link-color: #989898;
-      --font-color: #a6a3a5;
+      --font-color: #4d4b4c;
       --heading-font: 'Varela Round', sans-serif;
       --text-font: 'Varela Round', sans-serif;
   }
@@ -37,7 +37,7 @@
       font-family: 'Varela Round', sans-serif;
   }
   h1{
-      font-size: 60px; 
+      font-size: 3rem; 
       font-family: var(--heading-font);
   }
   
@@ -101,9 +101,9 @@
       border-color: var(--theme-dark-color);
   }
   
-  .sec-padding{
-      padding: 80px 0;
-  }
+    .sec-padding{
+        padding: 60px 0;
+    }
   .section_heading{
       position: relative;
   }
