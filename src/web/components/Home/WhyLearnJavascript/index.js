@@ -90,11 +90,10 @@ function WhyLearnJavascript() {
             <br />
             <br />
             <h3>Omni-platform</h3>
-            <p>JavaScript can run everywhere, including:
-                  <br />
-                  Devices like mobiles, tablets, and laptops<br />
-                  On the client-side as well as the server-side<br />
-                  This ability to run everywhere makes JavaScript a universal language.
+            <p>JavaScript can run everywhere, including:<br />
+            Devices like mobiles, tablets, and laptops<br />
+            On the client-side as well as the server-side<br />
+            This ability to run everywhere makes JavaScript a universal language.
             </p>
         </div>
       </div>
