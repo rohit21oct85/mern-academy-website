@@ -5,10 +5,8 @@ function WhyLearnJavascript() {
       <div className="row">
         <div className="col-md-3">
             <h2 className="pb-4">Why Learn Javascript ?</h2>
-            <img src="/javascript.png" alt="javascript most popular language" style={{ width: '80%'}}/>
-            <br />
+            <img src="/javascript.png" alt="javascript most popular language" style={{ width: '80%', margin: '10vh 0px'}}/>
             <img src="/nodejs.jpg" alt="Nodejs Most popular backend runtime enviornment" style={{ width: '80%', margin: '10vh 0px'}}/>
-            <br />
             <img src="/electron.jpg" alt="Nodejs Most popular backend runtime enviornment" style={{ width: '80%', margin: '10vh 0px'}}/>
         </div>    
         <div className="col-md-9">
@@ -89,7 +87,15 @@ function WhyLearnJavascript() {
             2020, the most popular language that hiring managers look for in a
             web development candidate is JavaScript.
           </p>
-
+            <br />
+            <br />
+            <h3>Omni-platform</h3>
+            <p>JavaScript can run everywhere, including:
+                  <br />
+                  Devices like mobiles, tablets, and laptops<br />
+                  On the client-side as well as the server-side<br />
+                  This ability to run everywhere makes JavaScript a universal language.
+            </p>
         </div>
       </div>
     </section>
