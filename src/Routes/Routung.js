@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Home from '../web/container/Home'
+import HowItWorks from '../web/container/HowItWorks'
 import Login from '../Auth/Login';
 import Register from '../Auth/Register';
 import Pricing from '../web/container/Pricing';
@@ -11,6 +12,7 @@ const Routung = () => {
           <BrowserRouter>
               <Switch>
                   <Route path='/' exact component={Home}/>
+                  <Route path='/how-it-works' exact component={HowItWorks}/>
                   <Route path='/login' exact component={Login} />
                   <Route path='/register' exact component={Register} />
                   <Route path='/pricing' exact component={Pricing} />

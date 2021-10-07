@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, Accordion} from 'react-bootstrap'
+import {Accordion} from 'react-bootstrap'
 
 export default function FAQ() {
       return (

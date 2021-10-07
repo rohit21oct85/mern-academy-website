@@ -13,10 +13,11 @@ function HeroSection() {
                                     </div>
                                     <div className="hero-sub-title">
                                           <p>According to Stack Overflow’s 2020 Developer Survey, 
-                                          JavaScript currently stands as the most commonly-used language in the world (69.7%).</p>
+                                          JavaScript currently stands as the most commonly-used language in the world (94.7%).</p>
                                           <p>
                                           JavaScript is the most common coding language in use today around the world. This is for a good reason: most web browsers utilize it and it’s one of the easiest languages to learn.  
                                           </p>
+                                          <p>Nowadays, JavaScript is an all-purpose programming language—meaning it runs across the entire software stack.</p>
                                     </div>
                                     <div className="hero-btn">
                                           <Button className="web-btn" href="/register" >Enroll Now</Button> {' '}

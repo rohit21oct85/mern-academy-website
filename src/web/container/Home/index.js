@@ -3,6 +3,7 @@ import React from 'react'
 import './index.css';
 import Navigation from '../../components/Layout/Navigation';
 import HeroSection from 'web/components/Home/HeroSection';
+import WhyLearnJavascript from 'web/components/Home/WhyLearnJavascript';
 import WhyChooseUs from 'web/components/Home/WhyChooseUs';
 import Mentor from 'web/components/Home/Mentor';
 import Testimonials from 'web/components/Home/Testimonials';
@@ -16,7 +17,7 @@ export default function Home() {
                   <Navigation />
                   <div className="container">  
                         <HeroSection />
-                        
+                        <WhyLearnJavascript />
                         <WhyChooseUs />
                         <Mentor />
                         <Testimonials />
