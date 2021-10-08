@@ -67,7 +67,11 @@
       font-family: var(--text-font);
       color: var(--font-color);
   }
-  
+  a{
+      text-decoration: none !important;
+      font-weight: 600;
+      font-size: medium;
+  }
   a:hover{
       color: initial;
       text-decoration: none!important;

@@ -4,11 +4,23 @@ function WhyLearnJavascript() {
     <section className="hero-section sec-padding">
       <div className="row">
         <div className="col-md-3">
-            <h2 className="pb-4">Why Learn Javascript ?</h2>
-            <img src="/javascript.png" alt="javascript most popular language" style={{ width: '80%', margin: '10vh 0px'}}/>
-            <img src="/nodejs.jpg" alt="Nodejs Most popular backend runtime enviornment" style={{ width: '80%', margin: '10vh 0px'}}/>
-            <img src="/electron.jpg" alt="Nodejs Most popular backend runtime enviornment" style={{ width: '80%', margin: '10vh 0px'}}/>
-        </div>    
+          <h1 className="pb-4">Why Learn Javascript ?</h1>
+          <img
+            src="/javascript.png"
+            alt="javascript most popular language"
+            style={{ width: "75%", margin: "5vh 0px" }}
+          />
+          <img
+            src="/nodejs.jpg"
+            alt="Nodejs Most popular backend runtime enviornment"
+            style={{ width: "75%", margin: "5vh 0px" }}
+          />
+          <img
+            src="/electron.jpg"
+            alt="Nodejs Most popular backend runtime enviornment"
+            style={{ width: "75%", margin: "5vh 0px" }}
+          />
+        </div>
         <div className="col-md-9">
           <p>
             You may be asking what programming languages to learn if you want to
@@ -79,22 +91,41 @@ function WhyLearnJavascript() {
             development abilities today.
           </p>
           <p>
+            72 percent of firms are eager to hire JavaScript professionals,
+            according to the <a href="https://devskiller.com/it-skills-report-2020/" target="__blank">Devskiller IT Skills and Hiring Report 2020.</a> On the
+            job portal Indeed, type in "JavaScript" and you'll find over 40,000
+            jobs that require this ability (in the US). 
+            If you do the same search on <a href="https://www.linkedin.com/jobs/search/?geoId=103644278&keywords=javascript&location=United%20States" target="__blank">LinkedIn Us</a>, you'll get over 449,331 results.
+            (In India) If you do the same search on <a href="https://www.linkedin.com/jobs/search/?geoId=102713980&keywords=javascript&location=India" target="__blank">LinkedIn India</a>, you'll get over 130,103 results.
+          </p>
+          <p>
             Simultaneously, the global demand for the language appears to
             outnumber the available competence. According to a HackerRank
             research, 48 percent of firms worldwide want JavaScript engineers,
             while just 42% of student developers claim to be fluent in the
-            language. And, according to HackerRank's most recent report for
-            2020, the most popular language that hiring managers look for in a
-            web development candidate is JavaScript.
+            language. And, according to{" "}
+            <a
+              href="https://research.hackerrank.com/student-developer/2018#skills"
+              target="__blank"
+            >
+              HackerRank's most recent report
+            </a>{" "}
+            for 2020, the most popular language that hiring managers look for in
+            a web development candidate is JavaScript.
           </p>
+          <br />
+          <br />
+          <h3>Omni-platform</h3>
+          <p>
+            JavaScript can run everywhere, including:
             <br />
+            Devices like mobiles, tablets, and laptops
             <br />
-            <h3>Omni-platform</h3>
-            <p>JavaScript can run everywhere, including:<br />
-            Devices like mobiles, tablets, and laptops<br />
-            On the client-side as well as the server-side<br />
-            This ability to run everywhere makes JavaScript a universal language.
-            </p>
+            On the client-side as well as the server-side
+            <br />
+            This ability to run everywhere makes JavaScript a universal
+            language.
+          </p>
         </div>
       </div>
     </section>
